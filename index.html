@@ -1,0 +1,70 @@
+<!doctype html> 
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MLBB Legend Skins Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body style="background-color: rgb(38, 37, 37);">
+
+    <nav class="navbar navbar-expand-lg navbar-dark py-2 position-absolute w-100 top-0 z-1">
+        <div class="container-fluid px-3">
+            <a class="navbar-brand d-flex align-items-center ps-2" href="#Home">
+                <img src="Assets/img/mllogo.png" alt="MLBB Logo" style="height: 150px;">
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto justify-content-around"></ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="Home" class="position-relative text-center">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-12">
+                    <img src="Assets/img/mlbg.jpg" class="w-100 vh-100 object-fit-cover d-block opacity-50" alt="Hero">
+                </div>
+
+                <div class="position-absolute top-50 start-50 translate-middle text-white px-3 px-md-5 text-center">
+                    <h1 data-aos="fade-up" class="display-1 fw-bold mb-3" style="font-family: 'Poppins', sans-serif;">
+                        LEGEND SKINS <br> COLLECTION
+                    </h1>
+                    <a href="#Gallery" class="btn btn-primary btn-lg">View All</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Gallery" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="fw-bold text-white display-3 header text-center my-3" data-aos="fade-down">
+                        Legend Skins Gallery
+                    </h2>
+                </div>
+            </div>
+
+            <div class="row" id="skinsRow"></div>
+        </div>
+    </section>
+
+    <footer class="text-center py-3 border-top" style="background-color: #0a0a0a;">
+        <p class="text-white mb-0" style="font-size: 0.9rem;">Copyright © MLBB Gallery. All rights reserved. School purposes only</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="info.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
